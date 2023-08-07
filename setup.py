@@ -36,7 +36,7 @@ setuptools.setup(
         "networkx==3.1",
         "numpy==1.25.1",
         "protobuf==4.23.4",
-        "Pygments==2.15.1",
+        "Pygments==2.16.1",
     ],
     extras_require={
         "test": [
