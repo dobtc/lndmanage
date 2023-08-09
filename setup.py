@@ -35,7 +35,7 @@ setuptools.setup(
         "grpcio-tools==1.56.2",
         "networkx==3.1",
         "numpy==1.25.1",
-        "protobuf==4.23.4",
+        "protobuf==4.24.0",
         "Pygments==2.15.1",
     ],
     extras_require={
