@@ -10,5 +10,4 @@ updates:
       interval: weekly
   - package-ecosystem: pip
     directory: /
-    schedule:
-      interval: monthly
+    open-pull-requests-limit: 0
