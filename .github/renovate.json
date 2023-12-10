@@ -1,9 +1,0 @@
-{
-  "extends": [
-    "config:base",
-    ":disableDependencyDashboard"
-  ],
-   "pip": {
-      "enabled": false
-    }  
-}
