@@ -7,3 +7,4 @@ docker/lndmanage/_src
 cache/
 README.md
 logo.png
+renovate.json
