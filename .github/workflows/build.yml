@@ -104,9 +104,9 @@ jobs:
         run: |
           rm -r lndmanage
           git config --global url.https://github.com/.insteadOf git://github.com/
-          git clone --recurse-submodules -j8 https://github.com/bitromortac/${{ github.event.repository.name }}.git --single-branch --branch ${{ env.latest_tag }}
+          git clone --recurse-submodules -j8 https://github.com/bitromortac/${{ github.event.repository.name }}.git --single-branch --branch v${{ env.latest_tag }}
           cp docker/Dockerfile ${{ github.event.repository.name }}/docker/
-          cp .dockerignore ${{ github.event.repository.name }}/
+          cp .dockerignore ${{ github.event.repository.name }}/docker/
       -
         name: Build Docker image
         if: env.exists == 'false'
