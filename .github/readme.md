@@ -535,7 +535,5 @@ to review and should not be trusted. In order to check that the libraries indeed
 can be reproduced from the LND repository, one can run the `build_grpc.sh`
 script and observe differences via git.
 
-## Docker
-
-If you prefer to run `lndmanage` from a docker container, `cd docker` 
-and follow the [`README`](docker/README.md) there.
+## Stars
+[![Stars](https://starchart.cc/dobtc/lndmanage.svg?variant=adaptive)](https://starchart.cc/dobtc/lndmanage)
