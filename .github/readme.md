@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/bitromortac/lndmanage/raw/master/logo.png" style="max-width:100%;" width="400" />
+<a href="https://github.com/dobtc/lndmanage"><img src="https://github.com/bitromortac/lndmanage/raw/master/logo.png" style="max-width:100%;" width="400" /></a>
 </div>
 <div align="center">
 
