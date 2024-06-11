@@ -28,7 +28,7 @@ lndmanage is a command line tool for advanced channel management of an
 
 [See installation instructions.](#setup)
 
-### Feature list:
+### Features ✨
 
 * Activity reports [```report```](#activity-report)
 * Display the node summary ```status```
@@ -44,7 +44,7 @@ lndmanage is a command line tool for advanced channel management of an
 * Batched channel opening [```openchannels```](#batched-channel-opening)
 * Support of [```lncli```](#lncli-support)
    
-## Command Line Options
+## Command Line Options ⚙️
 ```
 usage: lndmanage.py [-h] [--loglevel {INFO,DEBUG}] {status,listchannels,recommend-nodes,report,info,lncli,openchannels,update-fees} ...
 
@@ -535,5 +535,5 @@ to review and should not be trusted. In order to check that the libraries indeed
 can be reproduced from the LND repository, one can run the `build_grpc.sh`
 script and observe differences via git.
 
-## Stars
+## Stars 🌟
 [![Stars](https://starchart.cc/dobtc/lndmanage.svg?variant=adaptive)](https://starchart.cc/dobtc/lndmanage)
